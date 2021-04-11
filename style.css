@@ -1,0 +1,195 @@
+body {
+  background-color: #FF7978;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background-image: url(images/bg-intro-mobile.png);
+  background-repeat: no-repeat;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+#outer-margin {
+    margin-top: 9vh;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+#Learn {
+    color: white;
+    margin-bottom: 4.5vh;
+}
+
+#Learn h1 {
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 2.7vh;
+    line-height: 2.1rem;
+  }
+  
+#Learn p {
+    font-weight: 500;
+    font-size: .9rem;
+    line-height: 1.6rem;
+    letter-spacing: .04rem;
+  }
+
+#Try {
+    color: white;
+    background-color: #5D53A3;
+    border-radius: 2.5vw 2.5vw 2.5vw 2.5vw;
+    box-shadow: 0 .8vh rgb(0,0,0,0.15);
+    margin-bottom: 2.5vh;
+    height: 8.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: auto;
+}
+
+#Try p {
+    margin: 0;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 2.75vh;
+
+}
+
+#Form {
+    background-color: white;
+    border-radius: 2.5vw 2.5vw 2.5vw 2.5vw;
+    box-shadow: 0 .8vh rgb(0,0,0,0.15);
+    padding: 2.5vh 2.5vh;
+}
+
+#Claim {
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+    color: white;
+    box-shadow: 0 .4vh #2FBB7C;
+}
+
+#Claim:hover {
+    background-color: #77E1B4;
+}
+
+#Claim h1 {
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .08rem;
+    margin-bottom: 1.5vh;
+    line-height: 5.5vh;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 1.5vh;
+    margin-bottom: 1.5vh;
+    box-sizing: border-box;
+    border: 0.05vh solid #DEDEDE;
+    border-radius: 1.5vw 1.5vw 1.5vw 1.5vw;
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 2.5vh;
+  }
+
+  input[type=text]:focus {
+    outline: none !important;
+    border-color:  hsl(249, 10%, 26%);
+    color: hsl(249, 10%, 26%);
+  }
+
+  #Terms p{
+      font-size: .7rem;
+      line-height: 1.35rem;
+      color:  hsl(246, 25%, 77%);
+      font-weight: 500;
+      margin-bottom: 0;
+  }
+
+  #Terms b {
+    color: hsl(0, 100%, 74%);
+  }
+
+  @media screen and (min-width: 768px) {
+    
+    body {
+        background-image: url(images/bg-intro-desktop.png);
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+
+    #outer-margin {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 10vw;
+        margin-left: 10vw;
+    }
+
+    #Learn {
+        text-align: left;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-right: 2vw;;
+    }
+
+    #Learn h1 {
+        font-size: 6vh;
+        line-height: 7vh;
+      }
+      
+    #Learn p {
+        font-size: 1.9vh;
+        line-height: 2.8vh;
+        letter-spacing: .09vh;
+      }
+
+    #Widget {
+        padding-left: 2vw;
+    }
+
+    #Try {
+        border-radius: .8vw .8vw .8vw .8vw;
+        height: 7vh;
+        
+    }
+
+    #Try p {
+        font-size: 1.75vh;
+        letter-spacing: .15vh;
+    }
+
+    #Form {
+        border-radius: .8vw .8vw .8vw .8vw;
+        padding: 5vh 5vh;
+    }
+
+    input[type=text] {
+        border-radius: .4vw .4vw .4vw .4vw;
+        margin-bottom: 2.5vh;
+        line-height: 3.5vh;
+        padding-left: 2vw;
+        font-size: 1.75vh;
+        letter-spacing: .15vh;
+      }
+
+     #Claim {
+        border-radius: .4vw .4vw .4vw .4vw;
+        margin-bottom: 2.5vh;
+      }
+
+      #Claim h1 {
+        font-size: 1.75vh;
+        letter-spacing: .15vh;
+      }
+
+      #Terms p {
+        font-size: 1.4vh;
+        letter-spacing: .075vh;
+  }
