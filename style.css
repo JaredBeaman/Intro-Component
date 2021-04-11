@@ -169,6 +169,7 @@ input[type=text] {
     #Form {
         border-radius: .8vw .8vw .8vw .8vw;
         padding: 5vh 5vh;
+        margin-bottom: 9vh;
     }
 
     input[type=text] {
